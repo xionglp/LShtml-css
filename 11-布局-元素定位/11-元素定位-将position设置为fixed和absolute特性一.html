@@ -6,27 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
       .box {
-        height: 489px;
         background-color: #f00;
-        overflow: hidden;
       }
-
-      .box img {
-        position: relative;
-        left: -960px;
-        /* 向右边移动div的一半 */
-        margin-left: 50%;
+      .box strong {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #0f0;
       }
     </style>
   </head>
   <body>
     <div class="box">
-      <img src="../0-images/mhxy.jpg" alt="" />
+      <strong>
+        <span>我是strong元素</span>
+        <i>我是i元素</i>
+      </strong>
     </div>
   </body>
 </html>

@@ -7,24 +7,28 @@
     <title>Document</title>
     <style>
       .container {
-        width: 1000px;
+        width: 800px;
         height: 800px;
         background-color: #f00;
+
         position: relative;
-        top: 0;
       }
 
       .box {
-        position: relative;
-        width: 600px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         background-color: #0f0;
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
       }
 
       strong {
+        /* 固定定位， 相对于最临近的定位祖先元素 */
         position: absolute;
-        right: 0;
-        top: 0;
+        left: 0;
+        bottom: 0;
       }
     </style>
   </head>
@@ -33,7 +37,7 @@
       <div class="box">
         <span>我是span元素</span>
         <strong>我是strong元素</strong>
-        <img src="../0-images/gouwujie01.jpg" alt="" />
+        <img src="../images/gouwujie01.jpg" alt="">
         <div>我是div元素</div>
       </div>
     </div>
