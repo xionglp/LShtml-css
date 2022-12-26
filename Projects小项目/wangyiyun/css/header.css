@@ -1,0 +1,18 @@
+/* header类型一 */
+.header_type_01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.header_type_01 .title {
+  font-size: 12px;
+}
+
+.header_type_01 .more {
+  color: #666;
+}
