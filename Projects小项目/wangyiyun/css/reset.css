@@ -4,7 +4,7 @@ h2,
 h3,
 ul,
 li,
-p {
+p, dt, dd, dl, ol {
   margin: 0;
   padding: 0;
 }
