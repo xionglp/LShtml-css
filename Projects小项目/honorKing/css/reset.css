@@ -1,5 +1,5 @@
 /* reset.css 样式重置文件 */
-body, h2, ul, ol, li {
+body, h1, h2, ul, ol, li, p {
   margin: 0;
   padding: 0;
 }
